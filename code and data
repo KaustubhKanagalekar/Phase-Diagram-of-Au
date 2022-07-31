@@ -1,0 +1,13 @@
+Parameters and data 
+Comp = [0 20 40 60 80 90 95 100]
+Solidus = [1085 1019, 972, 934, 911, 928, 974, 1064]
+Liquidus = [1085, 1042, 996, 946, 911, 942, 984, 1064]
+This code will graph the data (Composition of wt% Au and Solidus and Liquidus Temperatures)
+
+plot(Comp, Solidus)
+hold on 
+plot(Comp,Liquidus)
+xlabel("Composition of wt% Au")
+ylabel("Temperature (C)")
+title("Plot of Composition of wt% Au and Solidus and Liquidus Temperatures")
+legend({'Solidus Line','Liquidus Line'},'Location','southwest')
